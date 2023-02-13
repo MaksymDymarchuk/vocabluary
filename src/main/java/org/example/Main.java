@@ -6,16 +6,15 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("Введіть 1 або 2");
         int a = in.nextInt();
-        switch (a){
-            case 1 : dictionary();
-            break;
-            case 2 : dictionar();
-            break;
-    }}
+        switch (a) {
+            case 1 -> dictionary();
+            case 2 -> dictionar();
+        }
+    }
     public static void dictionary(){
         Random words = new Random();
-        for (int i = 0; i < 120; i++){
-            int t = words.nextInt(30,182);
+        for (int i = 0; i < 140; i++){
+            int t = words.nextInt(160,212);
             //System.out.println(t);
             if (t == 0){arrayz("glimpse","уявлення");}
                 else if (t == 1) {arrayz("deal with","розбиратись");}
@@ -198,11 +197,41 @@ public class Main {
             else if (t == 179) {arrayz("strike out","викреслити");}
             else if (t == 180) {arrayz("appreciate","цінувати");}
             else if (t == 181) {arrayz("attempt","спроба");}
+            else if (t == 182) {arrayz("harness it","використовувати його");}
+            else if (t == 183) {arrayz("productivity","продуктивність");}
+            else if (t == 184) {arrayz("collaboration","співпраця");}
+            else if (t == 185) {arrayz("velocity","швидкість");}
+            else if (t == 186) {arrayz("complete","повний, досконалий, закінчений");}
+            else if (t == 187) {arrayz("environment","середовище");}
+            else if (t == 188) {arrayz("workflow","робочий процес");}
+            else if (t == 189) {arrayz("source community","вхідна спільнота");}
+            else if (t == 190) {arrayz("supply","поставка");}
+            else if (t == 191) {arrayz("flexible","гнучкий");}
+            else if (t == 192) {arrayz("adapt","адаптуватися");}
+            else if (t == 193) {arrayz("alongside","поряд, поруч");}
+            else if (t == 194) {arrayz("reduction","скорочення");}
+            else if (t == 195) {arrayz("maintainers","супроводжувач");}
+            else if (t == 196) {arrayz("embed","вбудувати");}
+            else if (t == 197) {arrayz("comply","дотримуватись");}
+            else if (t == 198) {arrayz("advance","заздалегідь");}
+            else if (t == 199) {arrayz("posture","поза, положення");}
+            else if (t == 200) {arrayz("respond","відповідь");}
+            else if (t == 201) {arrayz("threat","загроза");}
+            else if (t == 202) {arrayz("proactively","проактивно");}
+            else if (t == 203) {arrayz("fraudulent","обманний, шахрайський");}
+            else if (t == 204) {arrayz("accidentally","випадково");}
+            else if (t == 205) {arrayz("commit","здійснити");}
+            else if (t == 206) {arrayz("whether","чи (или)");}
+            else if (t == 207) {arrayz("scaling","маштабування");}
+            else if (t == 208) {arrayz("empower","розширити можливості");}
+            else if (t == 209) {arrayz("clarity","уточнити, висвітити");}
+            else if (t == 210) {arrayz("source","джерело");}
+            else if (t == 211) {arrayz("maintain","підтримувати");}
     }}
     public static void dictionar(){
         Random words = new Random();
         for (int i = 0; i < 140; i++){
-            int t = words.nextInt(81,182);
+            int t = words.nextInt(120,212);
             //System.out.println(t);
             if (t == 0){arraz("glimpse","уявлення");}
             else if (t == 1) {arraz("deal with","розбиратися");}
@@ -385,6 +414,36 @@ public class Main {
             else if (t == 179) {arraz("strike out","викреслити");}
             else if (t == 180) {arraz("appreciate","цінувати");}
             else if (t == 181) {arraz("attempt","спроба");}
+            else if (t == 182) {arraz("harness it","використовувати його");}
+            else if (t == 183) {arraz("productivity","продуктивність");}
+            else if (t == 184) {arraz("collaboration","співпраця");}
+            else if (t == 185) {arraz("velocity","швидкість");}
+            else if (t == 186) {arraz("complete","повний, досконалий, закінчений");}
+            else if (t == 187) {arraz("environment","середовище");}
+            else if (t == 188) {arraz("workflow","робочий процес");}
+            else if (t == 189) {arraz("source community","вхідна спільнота");}
+            else if (t == 190) {arraz("supply","поставка");}
+            else if (t == 191) {arraz("flexible","гнучкий");}
+            else if (t == 192) {arraz("adapt","адаптуватися");}
+            else if (t == 193) {arraz("alongside","поряд, поруч");}
+            else if (t == 194) {arraz("reduction","скорочення");}
+            else if (t == 195) {arraz("maintainers","супроводжувач");}
+            else if (t == 196) {arraz("embed","вбудувати");}
+            else if (t == 197) {arraz("comply","дотримуватись");}
+            else if (t == 198) {arraz("advance","заздалегідь");}
+            else if (t == 199) {arraz("posture","поза, положення");}
+            else if (t == 200) {arraz("respond","відповідь");}
+            else if (t == 201) {arraz("threat","загроза");}
+            else if (t == 202) {arraz("proactively","проактивно");}
+            else if (t == 203) {arraz("fraudulent","обманний, шахрайський");}
+            else if (t == 204) {arraz("accidentally","випадково");}
+            else if (t == 205) {arraz("commit","здійснити");}
+            else if (t == 206) {arraz("whether","чи (или)");}
+            else if (t == 207) {arraz("scaling","маштабування");}
+            else if (t == 208) {arraz("empower","розширити можливості");}
+            else if (t == 209) {arraz("clarity","уточнити, висвітити");}
+            else if (t == 210) {arraz("source","джерело");}
+            else if (t == 211) {arraz("maintain","підтримувати");}
         }}
     public static void arrayz(String a,String b){
         Scanner in = new Scanner(System.in);
