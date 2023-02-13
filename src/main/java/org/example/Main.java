@@ -6,12 +6,11 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("Введіть 1 або 2");
         int a = in.nextInt();
-        switch (a){
-            case 1 : dictionary();
-            break;
-            case 2 : dictionar();
-            break;
-    }}
+        switch (a) {
+            case 1 -> dictionary();
+            case 2 -> dictionar();
+        }
+    }
     public static void dictionary(){
         Random words = new Random();
         for (int i = 0; i < 140; i++){
